@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hoque.smartdialerbd.Banglalinkinternet"
+    android:background="#ffb42a">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/banglalinkroundcorner">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Banglalink Internet Packages"
+            android:id="@+id/blheader"
+            android:textAlignment="center"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:textSize="25dp"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:background="@drawable/headinground"
+            android:clickable="true"
+            android:layout_above="@+id/textView19" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="110dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="170dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl4"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="230dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl5"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="290dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl6"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="350dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl7"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="410dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl8"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="470dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="530dp" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Buy"
+            android:id="@+id/ibl10"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="590dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="4MB- 1.5tk- 1"
+            android:id="@+id/textView19"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_alignTop="@+id/ibl1"
+            android:layout_toLeftOf="@+id/ibl1"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_alignStart="@+id/textView20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="12MB- 4tk- 1day"
+            android:id="@+id/textView20"
+            android:layout_alignTop="@+id/ibl2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/ibl2"
+            android:layout_toStartOf="@+id/ibl2"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="32MB- 9tk- 1day"
+            android:id="@+id/textView21"
+            android:layout_alignTop="@+id/ibl3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/ibl3"
+            android:layout_toStartOf="@+id/ibl3"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="60MB- 15tk- 3day"
+            android:id="@+id/textView22"
+            android:layout_alignTop="@+id/ibl4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/ibl4"
+            android:layout_toStartOf="@+id/ibl4"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="100MB- 20tk- 7day"
+            android:id="@+id/textView23"
+            android:layout_alignTop="@+id/ibl5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/ibl5"
+            android:layout_toStartOf="@+id/ibl5"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="120MB- 50tk- 30day"
+            android:id="@+id/textView24"
+            android:layout_alignTop="@+id/ibl6"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/ibl6"
+            android:layout_toStartOf="@+id/ibl6"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="250MB- 75tk- 10day"
+            android:id="@+id/textView25"
+            android:layout_alignTop="@+id/ibl7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/ibl7"
+            android:layout_toStartOf="@+id/ibl7"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="500MB- 100tk- 7day"
+            android:id="@+id/textView26"
+            android:layout_alignTop="@+id/ibl8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/ibl8"
+            android:layout_toStartOf="@+id/ibl8"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="1GB- 210tk- 30day"
+            android:id="@+id/textView27"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/ibl9"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/ibl9"
+            android:layout_toStartOf="@+id/ibl9"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="15GB- 1500tk- 30day"
+            android:id="@+id/textView28"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp"
+            android:layout_alignTop="@+id/ibl10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_toLeftOf="@+id/ibl10"
+            android:layout_toStartOf="@+id/ibl10"
+            android:textSize="15dp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
